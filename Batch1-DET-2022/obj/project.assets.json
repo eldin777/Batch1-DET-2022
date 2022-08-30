@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ETG1\\source\\repos\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
-      "projectName": "ConsoleApp4",
-      "projectPath": "C:\\Users\\ETG1\\source\\repos\\ConsoleApp4\\ConsoleApp4\\ConsoleApp4.csproj",
+      "projectUniqueName": "C:\\Users\\ETG1\\source\\repos\\Batch1-DET-2022\\Batch1-DET-2022\\Batch1-DET-2022.csproj",
+      "projectName": "Batch1-DET-2022",
+      "projectPath": "C:\\Users\\ETG1\\source\\repos\\Batch1-DET-2022\\Batch1-DET-2022\\Batch1-DET-2022.csproj",
       "packagesPath": "C:\\Users\\ETG1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ETG1\\source\\repos\\ConsoleApp4\\ConsoleApp4\\obj\\",
+      "outputPath": "C:\\Users\\ETG1\\source\\repos\\Batch1-DET-2022\\Batch1-DET-2022\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ETG1\\AppData\\Roaming\\NuGet\\NuGet.Config",
