@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Batch1_DET_2022
+﻿namespace MyClassLib
 {
     public class employee1
     {
@@ -12,8 +6,8 @@ namespace Batch1_DET_2022
         string name;
         string dept;
         double sal;
-        public DateTime doj;
-        
+        public DateTime doj { get; set; }
+
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
         public employee1(int id, string name, DateTime doj)
@@ -40,5 +34,21 @@ namespace Batch1_DET_2022
             return $"Emp Id={id}, Name={name}, Experience={GetYearsofExp()} Years";
         }
 
+    }
+    internal interface ICar
+    {
+        int GetPrice(string name);
+    }
+    class Hyundai : ICar
+    {
+        public int GetPrice(string name)
+        {
+            if (name == "M3")
+                return 1300000;
+            else if (name == "x7")
+                return 960000;
+            else
+                return 100000;
+        }
     }
 }
